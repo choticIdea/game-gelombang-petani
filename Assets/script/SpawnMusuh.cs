@@ -3,8 +3,8 @@ using System.Collections;
 
 public class SpawnMusuh : MonoBehaviour {
 	public GameObject serangga;
-
-	float waktu;
+	Vector3 ins;
+	float waktu,random;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,8 +13,11 @@ public class SpawnMusuh : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		waktu += Time.deltaTime;
-		if (waktu >= 1) {
-			Instantiate (serangga, transform.position, transform.rotation);
+		if (waktu >= 2) {
+			random = Random.value;
+			ins = Camera.main.ViewportToWorldPoint (new Vector3 (1, random));
+			ins.z = 0;
+			Instantiate (serangga, ins, transform.rotation);
 			waktu = 0;
 		}
 	}
