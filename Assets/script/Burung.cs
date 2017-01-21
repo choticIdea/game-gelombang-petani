@@ -27,7 +27,7 @@ public class Burung : Serangga {
 			else
 				transform.Translate (Time.deltaTime * -2 * kec_serangga_x, Time.deltaTime * 2 * kec_serangga_y, 0);
 		} else if (zigzag == "turun") {
-			if(transform.position.y <= -4)
+			if(transform.position.y <= -1)
 				transform.Translate (Time.deltaTime * -2 * kec_serangga_x, 0, 0);
 			else
 				transform.Translate (Time.deltaTime * -2 * kec_serangga_x, Time.deltaTime * -2 * kec_serangga_y, 0);

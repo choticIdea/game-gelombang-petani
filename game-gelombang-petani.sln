@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{9927A850-DD10-BE2E-AEA6-7142F64BEF91}") = "game-gelombang-petani", "Assembly-CSharp.csproj", "{AA9FE1BB-86AF-C1BA-1DC6-87D0F90942B2}"
 EndProject
+Project("{9927A850-DD10-BE2E-AEA6-7142F64BEF91}") = "game-gelombang-petani", "Assembly-CSharp-Editor.csproj", "{B61F9842-0DF8-50DF-7D51-4144B2DDA03C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{AA9FE1BB-86AF-C1BA-1DC6-87D0F90942B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA9FE1BB-86AF-C1BA-1DC6-87D0F90942B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA9FE1BB-86AF-C1BA-1DC6-87D0F90942B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61F9842-0DF8-50DF-7D51-4144B2DDA03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61F9842-0DF8-50DF-7D51-4144B2DDA03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61F9842-0DF8-50DF-7D51-4144B2DDA03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61F9842-0DF8-50DF-7D51-4144B2DDA03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
