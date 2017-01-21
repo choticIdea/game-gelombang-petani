@@ -11,10 +11,7 @@ public class Burung : Serangga {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
-	protected override void move(){
+		protected override void move(){
 		waktu += Time.deltaTime;
 		if (waktu >= 1) {
 			int randomZigzag = Random.Range (0,2);
