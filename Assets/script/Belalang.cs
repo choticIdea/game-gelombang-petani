@@ -14,6 +14,7 @@ public class Belalang  : Serangga {
 	float jumpSpeed = 3f;
 	Vector2 moveDir;
 	void Start () {
+		ground = GameObject.Find ("Ground");
 		state = grounded;
 	}
 	
