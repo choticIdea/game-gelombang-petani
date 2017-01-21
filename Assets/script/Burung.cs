@@ -33,4 +33,12 @@ public class Burung : Serangga {
 				transform.Translate (Time.deltaTime * -2 * kec_serangga_x, Time.deltaTime * -2 * kec_serangga_y, 0);
 		}
 	}
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "Wave") {
+			GameMaster.playerScore += score;
+			Debug.Log (GameMaster.playerScore);
+			Destroy (gameObject);
+
+		}
+	}
 }
