@@ -17,6 +17,7 @@ public class SpawnMusuh : MonoBehaviour {
 			random = Random.value;
 			ins = Camera.main.ViewportToWorldPoint (new Vector3 (1, random));
 			ins.z = 0;
+			ins.x = transform.position.x;
 			Instantiate (serangga, ins, transform.rotation);
 			waktu = 0;
 		}
